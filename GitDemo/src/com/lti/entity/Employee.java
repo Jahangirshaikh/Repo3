@@ -1,6 +1,7 @@
+package com.lti.entity;
 
 public class Employee {
-
+	
 	private int empId;
 	private String empName;
 	
@@ -30,6 +31,7 @@ public class Employee {
 	public String toString() {
 		return "Employee [empId=" + empId + ", empName=" + empName + "]";
 	}
-
+	
+	
 	
 }
